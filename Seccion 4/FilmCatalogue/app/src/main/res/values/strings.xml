@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Film Catalogue</string>
+    <string name="movie1">Piratas del caribe</string>
+    <string name="movie2">Jumanji</string>
+    <string name="movie3">Avatar</string>
+    <string name="movie4">Star wars</string>
+    <string name="movie5">Tenet</string>
+    <string name="movie6">Rambo</string>
+    <string name="title">Seleccione una pelicula para ver su portada</string>
+</resources>
