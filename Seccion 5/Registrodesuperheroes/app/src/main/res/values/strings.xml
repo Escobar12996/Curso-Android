@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Registro de superheroes</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="nombreheroe">Nombre de heroe</string>
+    <string name="edad">Edad</string>
+    <string name="direccion">Dirección</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="registrar">Registrar</string>
+    <string name="errorformat">Error en la edad</string>
 </resources>
