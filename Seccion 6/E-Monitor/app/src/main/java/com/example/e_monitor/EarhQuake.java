@@ -8,6 +8,11 @@ public class EarhQuake {
     public EarhQuake() {
     }
 
+    public EarhQuake(String magnitude, String place) {
+        this.magnitude = magnitude;
+        this.place = place;
+    }
+
     public String getMagnitude() {
         return magnitude;
     }

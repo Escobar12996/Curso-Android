@@ -16,14 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ListView earthquakeListView = findViewById(R.id.earthquakeListView);
-        ArrayList<String> countryList = new ArrayList<String>();
+        ArrayList<EarhQuake> eqList = new ArrayList<EarhQuake>();
 
-        countryList.add("España");
-        countryList.add("Portugal");
-        countryList.add("Colombia");
-        countryList.add("Peru");
+        eqList.add(new EarhQuake("4.5", "España"));
+        eqList.add(new EarhQuake("10.5", "Portugal"));
+        eqList.add(new EarhQuake("2.5", "Colombia"));
+        eqList.add(new EarhQuake("5.5", "Peru"));
 
-        ArrayAdapter<String> countryAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, countryList);
-        earthquakeListView.setAdapter(countryAdapter);
+        EqAdapter eqAdapter = new EqAdapter(this, eqList);
+        earthquakeListView.setAdapter(eqAdapter);
     }
 }
